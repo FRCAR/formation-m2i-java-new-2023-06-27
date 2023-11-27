@@ -9,8 +9,14 @@ public class ChildFile {
 	public ChildFile() {
 	}
 
-	public ChildFile(Integer age2, String nom2) {
-		// TODO Auto-generated constructor stub
+	public ChildFile(Integer age, String nom) {
+		this.age = age;
+		this.nom = nom;
+	}
+	
+	public ChildFile(Child c) {
+		this.age = c.getAge();
+		this.nom = c.getNom();
 	}
 
 	public String getNom() {
