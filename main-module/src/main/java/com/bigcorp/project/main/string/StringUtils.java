@@ -26,6 +26,7 @@ public class StringUtils {
 		System.out.println(phrase.repeat(3));
 
 		// Comparaison de StringBuilders
+			
 		var sb1 = new StringBuilder().append("coucou").append("coucou");
 		var sb2 = new StringBuilder().append("coucou".repeat(2));
 		System.out.println("La comparaison sb1,sb2 donne " + sb1.compareTo(sb2));

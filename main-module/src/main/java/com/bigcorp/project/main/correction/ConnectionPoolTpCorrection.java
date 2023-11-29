@@ -6,9 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 import com.bigcorp.project.main.concurrent.HeavyResource;
-/**
- * Correction du TP Connection pool
- */
+
 public class ConnectionPoolTpCorrection {
 
 	private static final int NUMBER_OF_TRANSACTIONS_TO_PROCEED = 20;

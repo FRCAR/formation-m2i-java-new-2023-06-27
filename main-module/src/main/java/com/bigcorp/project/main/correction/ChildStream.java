@@ -53,12 +53,6 @@ public class ChildStream {
 		Child enfantLePlusJeune = enfants.stream().min((c1,c2) -> c1.getAge() - c2.getAge()).orElse(null);
 		System.out.println(enfantLePlusJeune.getNom() + " a " + enfantLePlusJeune.getAge() + " ans");
 		
-		enfants
-		.stream()
-		.filter(c -> c.getAge() > 14)
-		.map(ChildFile::new)
-		.collect(Collectors.toList());
-		
 	}
 
 }
